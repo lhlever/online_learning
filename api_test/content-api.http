@@ -1,0 +1,34 @@
+###根据条件查询课程信息
+POST http://{{content_host}}/content/course/list?pageNo=1&pageSize=2
+Content-Type: application/json
+
+{
+  "courseName":"java"
+}
+
+###查询课程分类树形结构
+GET http://{{content_host}}/content/course-category/tree-nodes
+
+### 创建课程
+POST http://{{content_host}}/content/course
+Content-Type: application/json
+
+{
+  "charge": "201001",
+  "price": 10,
+  "originalPrice":100,
+  "qq": "22333",
+  "wechat": "223344",
+  "phone": "13333333",
+  "validDays": 365,
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "java网络编程高级",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "",
+  "grade": "204001",
+  "description": "java网络编程高级java网络编程高级java网络编程高级"
+}
+

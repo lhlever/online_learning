@@ -4,6 +4,8 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 //import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
 //import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerInterceptor;
 //import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
+import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerInterceptor;
 import lombok.val;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,7 +18,7 @@ import org.springframework.context.annotation.Configuration;
  * @Date：2023/9/17 16:44
  * @Filename：DaoConfig
  */
-/*@Configuration
+@Configuration
 public class DaoConfig {
     @Bean
     public MybatisPlusInterceptor mybatisPlusInterceptor(){
@@ -24,4 +26,4 @@ public class DaoConfig {
         mybatisPlusInterceptor.addInnerInterceptor(new PaginationInnerInterceptor());
         return mybatisPlusInterceptor;
     }
-}*/
+}

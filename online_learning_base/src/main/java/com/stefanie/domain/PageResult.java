@@ -21,7 +21,7 @@ import java.util.List;
 @AllArgsConstructor
 public class PageResult<T> implements Serializable {
     //数据列表
-    private List<T> item;
+    private List<T> items;
     //总记录数
     private long counts;
     //当前页码

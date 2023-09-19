@@ -6,7 +6,7 @@ import javax.validation.constraints.NotNull;
 
 import java.io.Serializable;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModelProperty;
@@ -17,8 +17,8 @@ import org.hibernate.validator.constraints.Length;
 * 课程基本信息
 * @TableName course_base
 */
-@Data
 @TableName("course_base")
+@Data
 public class CourseBase implements Serializable {
 
     /**
@@ -112,12 +112,12 @@ public class CourseBase implements Serializable {
     * 创建时间
     */
     @ApiModelProperty("创建时间")
-    private Date createDate;
+    private LocalDateTime createDate;
     /**
     * 修改时间
     */
     @ApiModelProperty("修改时间")
-    private Date changeDate;
+    private LocalDateTime changeDate;
     /**
     * 创建人
     */
@@ -149,257 +149,6 @@ public class CourseBase implements Serializable {
     @Length(max= 10,message="编码长度不能超过10")
     private String status;
 
-    /**
-    * 主键
-    */
-    private void setId(Long id){
-    this.id = id;
-    }
 
-    /**
-    * 机构ID
-    */
-    private void setCompanyId(Long companyId){
-    this.companyId = companyId;
-    }
-
-    /**
-    * 机构名称
-    */
-    private void setCompanyName(String companyName){
-    this.companyName = companyName;
-    }
-
-    /**
-    * 课程名称
-    */
-    private void setName(String name){
-    this.name = name;
-    }
-
-    /**
-    * 适用人群
-    */
-    private void setUsers(String users){
-    this.users = users;
-    }
-
-    /**
-    * 课程标签
-    */
-    private void setTags(String tags){
-    this.tags = tags;
-    }
-
-    /**
-    * 大分类
-    */
-    private void setMt(String mt){
-    this.mt = mt;
-    }
-
-    /**
-    * 小分类
-    */
-    private void setSt(String st){
-    this.st = st;
-    }
-
-    /**
-    * 课程等级
-    */
-    private void setGrade(String grade){
-    this.grade = grade;
-    }
-
-    /**
-    * 教育模式(common普通，record 录播，live直播等）
-    */
-    private void setTeachmode(String teachmode){
-    this.teachmode = teachmode;
-    }
-
-    /**
-    * 课程介绍
-    */
-    private void setDescription(String description){
-    this.description = description;
-    }
-
-    /**
-    * 课程图片
-    */
-    private void setPic(String pic){
-    this.pic = pic;
-    }
-
-    /**
-    * 创建时间
-    */
-    private void setCreateDate(Date createDate){
-    this.createDate = createDate;
-    }
-
-    /**
-    * 修改时间
-    */
-    private void setChangeDate(Date changeDate){
-    this.changeDate = changeDate;
-    }
-
-    /**
-    * 创建人
-    */
-    private void setCreatePeople(String createPeople){
-    this.createPeople = createPeople;
-    }
-
-    /**
-    * 更新人
-    */
-    private void setChangePeople(String changePeople){
-    this.changePeople = changePeople;
-    }
-
-    /**
-    * 审核状态
-    */
-    private void setAuditStatus(String auditStatus){
-    this.auditStatus = auditStatus;
-    }
-
-    /**
-    * 课程发布状态 未发布  已发布 下线
-    */
-    private void setStatus(String status){
-    this.status = status;
-    }
-
-
-    /**
-    * 主键
-    */
-    private Long getId(){
-    return this.id;
-    }
-
-    /**
-    * 机构ID
-    */
-    private Long getCompanyId(){
-    return this.companyId;
-    }
-
-    /**
-    * 机构名称
-    */
-    private String getCompanyName(){
-    return this.companyName;
-    }
-
-    /**
-    * 课程名称
-    */
-    private String getName(){
-    return this.name;
-    }
-
-    /**
-    * 适用人群
-    */
-    private String getUsers(){
-    return this.users;
-    }
-
-    /**
-    * 课程标签
-    */
-    private String getTags(){
-    return this.tags;
-    }
-
-    /**
-    * 大分类
-    */
-    private String getMt(){
-    return this.mt;
-    }
-
-    /**
-    * 小分类
-    */
-    private String getSt(){
-    return this.st;
-    }
-
-    /**
-    * 课程等级
-    */
-    private String getGrade(){
-    return this.grade;
-    }
-
-    /**
-    * 教育模式(common普通，record 录播，live直播等）
-    */
-    private String getTeachmode(){
-    return this.teachmode;
-    }
-
-    /**
-    * 课程介绍
-    */
-    private String getDescription(){
-    return this.description;
-    }
-
-    /**
-    * 课程图片
-    */
-    private String getPic(){
-    return this.pic;
-    }
-
-    /**
-    * 创建时间
-    */
-    private Date getCreateDate(){
-    return this.createDate;
-    }
-
-    /**
-    * 修改时间
-    */
-    private Date getChangeDate(){
-    return this.changeDate;
-    }
-
-    /**
-    * 创建人
-    */
-    private String getCreatePeople(){
-    return this.createPeople;
-    }
-
-    /**
-    * 更新人
-    */
-    private String getChangePeople(){
-    return this.changePeople;
-    }
-
-    /**
-    * 审核状态
-    */
-    private String getAuditStatus(){
-    return this.auditStatus;
-    }
-
-    /**
-    * 课程发布状态 未发布  已发布 下线
-    */
-    private String getStatus(){
-    return this.status;
-    }
 
 }

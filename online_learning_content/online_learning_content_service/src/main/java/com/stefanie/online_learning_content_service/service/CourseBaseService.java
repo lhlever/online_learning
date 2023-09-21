@@ -7,6 +7,7 @@ import com.stefanie.domain.PageParam;
 import com.stefanie.domain.PageResult;
 import com.stefanie.online_learning_content_model.dto.AddCourseDto;
 import com.stefanie.online_learning_content_model.dto.CourseBaseInfoDto;
+import com.stefanie.online_learning_content_model.dto.EditCourseDto;
 import com.stefanie.online_learning_content_model.dto.QueryCourseParamDto;
 import com.stefanie.online_learning_content_model.po.CourseBase;
 
@@ -25,4 +26,8 @@ public interface CourseBaseService extends IService<CourseBase> {
      * @Date: 2023/9/19~12:27
      */
     public CourseBaseInfoDto createCourseBase(Long companyId, AddCourseDto addCourseDto);
+
+    public CourseBaseInfoDto getCourseBaseInfoDto(Long courseId);
+
+    public CourseBaseInfoDto updateCourseBaseInfoDto(Long companyId, EditCourseDto editCourseDto);
 }

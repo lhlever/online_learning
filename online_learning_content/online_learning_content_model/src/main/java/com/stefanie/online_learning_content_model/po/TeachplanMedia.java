@@ -17,8 +17,8 @@ import org.hibernate.validator.constraints.Length;
 *
 * @TableName teachplan_media
 */
+@TableName("teacherplan_media")
 @Data
-@TableName("teacher_plan_media")
 public class TeachplanMedia implements Serializable {
 
     /**
@@ -74,117 +74,6 @@ public class TeachplanMedia implements Serializable {
     @Length(max= 60,message="编码长度不能超过60")
     private String changePeople;
 
-    /**
-    * 主键
-    */
-    private void setId(Long id){
-    this.id = id;
-    }
 
-    /**
-    * 媒资文件id
-    */
-    private void setMediaId(String mediaId){
-    this.mediaId = mediaId;
-    }
-
-    /**
-    * 课程计划标识
-    */
-    private void setTeachplanId(Long teachplanId){
-    this.teachplanId = teachplanId;
-    }
-
-    /**
-    * 课程标识
-    */
-    private void setCourseId(Long courseId){
-    this.courseId = courseId;
-    }
-
-    /**
-    * 媒资文件原始名称
-    */
-    private void setMediaFilename(String mediaFilename){
-    this.mediaFilename = mediaFilename;
-    }
-
-    /**
-    *
-    */
-    private void setCreateDate(Date createDate){
-    this.createDate = createDate;
-    }
-
-    /**
-    * 创建人
-    */
-    private void setCreatePeople(String createPeople){
-    this.createPeople = createPeople;
-    }
-
-    /**
-    * 修改人
-    */
-    private void setChangePeople(String changePeople){
-    this.changePeople = changePeople;
-    }
-
-
-    /**
-    * 主键
-    */
-    private Long getId(){
-    return this.id;
-    }
-
-    /**
-    * 媒资文件id
-    */
-    private String getMediaId(){
-    return this.mediaId;
-    }
-
-    /**
-    * 课程计划标识
-    */
-    private Long getTeachplanId(){
-    return this.teachplanId;
-    }
-
-    /**
-    * 课程标识
-    */
-    private Long getCourseId(){
-    return this.courseId;
-    }
-
-    /**
-    * 媒资文件原始名称
-    */
-    private String getMediaFilename(){
-    return this.mediaFilename;
-    }
-
-    /**
-    *
-    */
-    private Date getCreateDate(){
-    return this.createDate;
-    }
-
-    /**
-    * 创建人
-    */
-    private String getCreatePeople(){
-    return this.createPeople;
-    }
-
-    /**
-    * 修改人
-    */
-    private String getChangePeople(){
-    return this.changePeople;
-    }
 
 }

@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.CoursePublishPreMapper">
+<mapper namespace="com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper">
 
-    <resultMap id="BaseResultMap" type="generator.domain.CoursePublishPre">
+    <resultMap id="BaseResultMap" type="com.stefanie.online_learning_content_model.po.CoursePublish">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="companyId" column="company_id" jdbcType="BIGINT"/>
             <result property="companyName" column="company_name" jdbcType="VARCHAR"/>
@@ -24,7 +24,8 @@
             <result property="teachplan" column="teachplan" jdbcType="VARCHAR"/>
             <result property="teachers" column="teachers" jdbcType="VARCHAR"/>
             <result property="createDate" column="create_date" jdbcType="TIMESTAMP"/>
-            <result property="auditDate" column="audit_date" jdbcType="TIMESTAMP"/>
+            <result property="onlineDate" column="online_date" jdbcType="TIMESTAMP"/>
+            <result property="offlineDate" column="offline_date" jdbcType="TIMESTAMP"/>
             <result property="status" column="status" jdbcType="VARCHAR"/>
             <result property="remark" column="remark" jdbcType="VARCHAR"/>
             <result property="charge" column="charge" jdbcType="VARCHAR"/>
@@ -40,8 +41,8 @@
         st,st_name,grade,
         teachmode,pic,description,
         market,teachplan,teachers,
-        create_date,audit_date,status,
-        remark,charge,price,
-        original_price,valid_days
+        create_date,online_date,offline_date,
+        status,remark,charge,
+        price,original_price,valid_days
     </sql>
 </mapper>

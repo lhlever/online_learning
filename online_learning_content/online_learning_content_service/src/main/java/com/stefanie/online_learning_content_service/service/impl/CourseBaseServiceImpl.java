@@ -9,6 +9,7 @@ import com.stefanie.domain.PageResult;
 import com.stefanie.exception.GlobalException;
 import com.stefanie.online_learning_content_model.dto.AddCourseDto;
 import com.stefanie.online_learning_content_model.dto.CourseBaseInfoDto;
+import com.stefanie.online_learning_content_model.dto.EditCourseDto;
 import com.stefanie.online_learning_content_model.dto.QueryCourseParamDto;
 import com.stefanie.online_learning_content_model.po.CourseBase;
 import com.stefanie.online_learning_content_model.po.CourseCategory;
@@ -148,6 +149,38 @@ public class CourseBaseServiceImpl extends ServiceImpl<CourseBaseMapper, CourseB
         BeanUtils.copyProperties(courseMarket,courseBaseInfoDto);
         return courseBaseInfoDto;
     }
+
+    @Override
+    public CourseBaseInfoDto updateCourseBaseInfoDto(Long companyId, EditCourseDto editCourseDto) {
+        Long courseId = editCourseDto.getId();
+        CourseBase courseBase = courseBaseMapper.selectById(courseId);
+        if (courseBase==null){
+            GlobalException.cast("修改课程不存在");
+        }
+        if(!companyId.equals(courseBase.getCompanyId())){
+            GlobalException.cast("您无修改本机构权限");
+        }
+        BeanUtils.copyProperties(editCourseDto,courseBase);
+        courseBase.setChangeDate(LocalDateTime.now());
+        int i = courseBaseMapper.updateById(courseBase);
+        if (i<=0){
+            GlobalException.cast("修改课程基本信息失败");
+        }
+        CourseMarket courseMarket = courseMarketMapper.selectById(courseId);
+        if (courseBase==null){
+            GlobalException.cast("修改课程不存在");
+        }
+        BeanUtils.copyProperties(editCourseDto,courseMarket);
+        int j = courseMarketMapper.updateById(courseMarket);
+        if (j<=0){
+            GlobalException.cast("修改课程营销信息失败");
+        }
+
+        CourseBaseInfoDto courseBaseInfoDto = getCourseBaseInfoDto(courseId);
+        return courseBaseInfoDto;
+    }
+
+
 }
 
 

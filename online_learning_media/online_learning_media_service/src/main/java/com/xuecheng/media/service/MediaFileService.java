@@ -3,6 +3,8 @@ package com.xuecheng.media.service;
 import com.stefanie.domain.PageParam;
 import com.stefanie.domain.PageResult;
 import com.xuecheng.media.model.dto.QueryMediaParamsDto;
+import com.xuecheng.media.model.dto.UploadFileParamsDto;
+import com.xuecheng.media.model.dto.UploadFileResultDto;
 import com.xuecheng.media.model.po.MediaFiles;
 import org.springframework.web.bind.annotation.RequestBody;
 
@@ -25,6 +27,13 @@ public interface MediaFileService {
   * @date 2022/9/10 8:57
  */
  public PageResult<MediaFiles> queryMediaFiels(Long companyId, PageParam pageParams, QueryMediaParamsDto queryMediaParamsDto);
-
+ /**
+ * @Description:
+ * @Param: [companyId机构id, uploadFileParamsDto文件信息, localFilePath文件本地路径]
+ * @Author: stefanie
+ * @Date: 2023/10/1~16:17
+ */
+ public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath);
+ public MediaFiles addMediaFilesToDb(Long companyId,String filemd5,UploadFileParamsDto uploadFileParamsDto,String bucket,String objectName);
 
 }

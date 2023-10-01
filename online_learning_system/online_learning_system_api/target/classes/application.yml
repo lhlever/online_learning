@@ -11,6 +11,27 @@ spring:
     url: jdbc:mysql://localhost:3306/online_learning_system?serverTimezone=UTC&userUnicode=true&useSSL=false&
     username: root
     password: root
+  cloud:
+    nacos:
+      discovery: #服务注册相关配置
+        server-addr: 127.0.0.1:8848
+        #        server-addr: 192.168.144.8:8848
+        namespace: dev
+        group: online-learning
+      config:
+        namespace: dev
+        group: online-learning
+        file-extension: yaml
+        refresh-enabled: true
+      username: nacos
+      password: nacos
+  profiles:
+    active: dev
+#    nacos:
+#      server-addr: 127.0.0.1:8848
+#      discovery:
+#        namespace: dev
+#        group: online-learning
 # 日志文件配置路径
 logging:
   config: classpath:log4j2-dev.xml

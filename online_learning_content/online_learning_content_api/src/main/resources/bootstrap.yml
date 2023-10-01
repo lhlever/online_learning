@@ -1,0 +1,53 @@
+server:
+  servlet:
+    context-path: /content #1.服务名
+  port: 63040
+#微服务配置
+spring:
+  application:
+    name: content-api
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/online_learning_content?serverTimezone=UTC&userUnicode=true&useSSL=false
+#    username: root
+#    password: root
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      discovery: #服务注册相关配置
+#        server-addr: 192.168.144.8:8848
+        namespace: dev
+        group: online-learning
+      config:    #配置中心的配置文件相关内容
+        namespace: dev
+        group: online-learning
+        file-extension: yaml
+        refresh-enabled: true
+        extension-configs: #依赖其他项目的配置文件
+          - data-id: content-service-${spring.profiles.active}.yaml
+            group: online-learning
+            refresh: true
+        shared-configs:    #依赖公共通用的配置文件
+          - data-id: swagger-${spring.profiles.active}.yaml
+            group: online-learning-common
+            refresh: true
+          - data-id: logging-${spring.profiles.active}.yaml
+            group: online-learning-common
+            refresh: true
+  profiles:
+    active: dev #2.环境名
+# 日志文件配置路径
+#logging:
+#  config: classpath:log4j2-dev.xml
+#swagger:
+#  title: "在线教育内容管理系统"
+#  description: "内容管理系统实现对课程相关信息进行管理"
+#  base-package: com.stefanie.content
+#  enabled: true
+#  version: 1.0.0
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+
+

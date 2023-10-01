@@ -50,3 +50,28 @@
     
     总之，在修改mysql的自增id时，一定要备份我们的数据，然后按照上述步骤进行操作。除非有必要，否则不要修改自增id
 
+### 5.docker上安装nacos，为其配置宿主机上的mysql,流程注意事项-----------20230921
+    ①宿主机的mysql开启允许远程访问连接，否则只允许本地连接
+    ②宿主机防火墙允许外部访问3306端口
+    ③为nacos配置本地的挂载目录，目的为了修改配置文件application.properties中数据库的连接
+    ④application.properties配置文件中的url，其中ip地址不能写localhost或127.0.0.1，因为
+      这指的是访问docker上的地址，所以需要使用ip地址192.168.xx.xx或者host.docker.internal，
+      这指的是宿主机的地址。
+
+### 6.spring-cloud微服务注册到docker上的nacos------------2023年9月30日
+    ①注意单例模式的设置
+    docker run --name nacos2.x -d -p 8848:8848 -p 9848:9848 -p 9849:9849 --privileged=true --restart=always -e MODE=standalone -e PREFER_HOST_MODE=hostname -v D:\development_tools\NACOS\init.d\application.properties:/home/nacos/conf/application.properties nacos/nacos-server
+    ②注意设置nacos的ip地址
+    在application.properties中设置nacos.inetutils.ip-address=192.168.144.8
+
+### 7.配置文件application.yml和bootstrap.yml区别----------------2023年10月1日
+    bootstrap类型文件是在多服务项目时，引入了springcloud相关配置才会生效，springboot并不会自动扫描bootstrap文件，只会扫描application文件，所以两者的比较只有在spingcloud多服务项目中才有意义。
+    Spring Cloud 构建于 Spring Boot 之上，在 Spring Boot 中有两种上下文，一种是 bootstrap, 另外一种是 application, bootstrap 是应用程序的父上下文，也就是说 bootstrap 加载优先于 applicaton。
+    bootstrap 主要用于从额外的资源来加载配置信息，还可以在本地外部配置文件中解密属性。这两个上下文共用一个环境，它是任何Spring应用程序的外部属性的来源。bootstrap 里面的属性会优先加载，它们默认也不能被本地相同配置覆盖。
+    boostrap 由父 ApplicationContext 加载，比 applicaton 优先加载
+    boostrap 里面的属性不能被覆盖
+    在使用nacos作为配置中心时，本地配置文件应该是bootstrap.yml，如果是application.yml则会报错。nacos配置一定要写在bootstrap.yml中，如果你写在application.yml中将是无法生效读取的。
+### 8.想要终止idea后台的下载任务，点击取消没有反应---------------2023年10月1日
+    解决办法：断网
+### 9.gateway和各个微服务要在一个group分组下，否则路由不能转发--------2023年10月1日
+    Group间服务仍是隔离的，即服务注册到不同的分组时，无法使用OpenFeign指定服务名负载调用

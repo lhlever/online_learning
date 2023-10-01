@@ -4,6 +4,7 @@ import com.spring4all.swagger.EnableSwagger2Doc;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @Author：stefanie
@@ -14,6 +15,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Filename：ContentApplication
  */
 @EnableSwagger2Doc
+@EnableDiscoveryClient
 @SpringBootApplication
 @MapperScan({"com.stefanie.online_learning_content_service.courseMapper"})
 public class ContentApplication {

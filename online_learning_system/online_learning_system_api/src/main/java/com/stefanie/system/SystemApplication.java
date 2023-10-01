@@ -3,6 +3,7 @@ package com.stefanie.system;
 import com.spring4all.swagger.EnableSwagger2Doc;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
  */
 @EnableScheduling
 @EnableSwagger2Doc
+@EnableDiscoveryClient
 @SpringBootApplication
 
 public class SystemApplication {

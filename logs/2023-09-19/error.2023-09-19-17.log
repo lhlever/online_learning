@@ -1,0 +1,1 @@
+2023-09-19 17:12:29,889 ERROR [http-nio-63040-exec-4][CourseBaseServiceImpl.java:68] - AddCourseDto(name=reactreactreactreactreact, users=中小学生, tags=前端, mt=1-1, st=1-1-3, grade=204001, teachmode=200003, description=reactreactreactreactreact, pic=, charge=201001, price=100.0, originalPrice=10.0, qq=11, wechat=11, phone=111, validDays=365)==============

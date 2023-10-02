@@ -27,3 +27,8 @@ spring:
   profiles:
     active: dev
 
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB #原因是 SpringBoot内嵌的 tomcat 默认的所有上传的文件大小为 1MB，超出这个大小就会报错
+

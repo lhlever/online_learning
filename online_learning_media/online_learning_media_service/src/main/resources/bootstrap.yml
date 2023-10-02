@@ -20,6 +20,19 @@ spring:
 #profiles默认为dev
   profiles:
     active: dev
+#xxl:
+#  job:
+#    admin:
+#      addresses: http://localhost:8080/xxl-job-admin
+#    executor:
+#      appname: media-procecss-service
+#      address:
+#      ip:
+#      port: 9999
+#      logpath:
+#      logretentiondays: 30
+#    accessToken: default_token
+
 
 
 

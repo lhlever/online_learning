@@ -1,0 +1,80 @@
+package com.stefanie.domain;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+/**
+ * @Author：stefanie
+ * @Package：com.stefanie.domain
+ * @Project：online_learning
+ * @name：RestResponse
+ * @Date：2023/10/1 21:18
+ * @Filename：RestResponse
+ * @Description：
+ */
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class RestResponse<T> {
+    private int code;
+    private String msg;
+    private T result;
+    public RestResponse(int code,String msg){
+        this.code=code;
+        this.msg=msg;
+    }
+    /**
+     * 错误信息的封装
+     *
+     * @param msg
+     * @param <T>
+     * @return
+     */
+    public static <T> RestResponse<T> validfail(String msg) {
+        RestResponse<T> response = new RestResponse<T>();
+        response.setCode(-1);
+        response.setMsg(msg);
+        return response;
+    }
+    public static <T> RestResponse<T> validfail(T result,String msg) {
+        RestResponse<T> response = new RestResponse<T>();
+        response.setCode(-1);
+        response.setResult(result);
+        response.setMsg(msg);
+        return response;
+    }
+
+
+
+    /**
+     * 添加正常响应数据（包含响应内容）
+     *
+     * @return RestResponse Rest服务封装相应数据
+     */
+    public static <T> RestResponse<T> success(T result) {
+        RestResponse<T> response = new RestResponse<T>();
+        response.setResult(result);
+        return response;
+    }
+    public static <T> RestResponse<T> success(T result,String msg) {
+        RestResponse<T> response = new RestResponse<T>();
+        response.setResult(result);
+        response.setMsg(msg);
+        return response;
+    }
+
+    /**
+     * 添加正常响应数据（不包含响应内容）
+     *
+     * @return RestResponse Rest服务封装相应数据
+     */
+    public static <T> RestResponse<T> success() {
+        return new RestResponse<T>();
+    }
+
+
+    public Boolean isSuccessful() {
+        return this.code == 0;
+    }
+}

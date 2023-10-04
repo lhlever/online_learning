@@ -1,5 +1,6 @@
 package com.stefanie.content;
 
+import com.stefanie.online_learning_content_model.dto.BindTeachPlanMediaDto;
 import com.stefanie.online_learning_content_model.dto.SaveTeachplanDto;
 import com.stefanie.online_learning_content_model.dto.TeachPlanDto;
 import com.stefanie.online_learning_content_service.service.TeachplanService;
@@ -41,4 +42,11 @@ public class TeachPlanController {
     public void saveTeachPlan(@RequestBody SaveTeachplanDto saveTeachplanDto){
         teachplanService.saveTeachPlan(saveTeachplanDto);
     }
+
+    @ApiOperation("课程计划和媒资信息绑定")
+    @PostMapping("/teachplan/association/media")
+    public void associationMedia(@RequestBody BindTeachPlanMediaDto bindTeachPlanMediaDto){
+        teachplanService.associationMedia(bindTeachPlanMediaDto);
+    }
+
 }

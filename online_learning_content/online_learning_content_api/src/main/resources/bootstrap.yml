@@ -34,6 +34,9 @@ spring:
           - data-id: logging-${spring.profiles.active}.yaml
             group: online-learning-common
             refresh: true
+          - data-id: freemarker-config-${spring.profiles.active}.yaml
+            group: xuecheng-plus-common
+            refresh: true
   profiles:
     active: dev #2.环境名
 # 日志文件配置路径

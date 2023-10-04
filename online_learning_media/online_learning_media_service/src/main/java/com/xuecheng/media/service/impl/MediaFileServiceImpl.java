@@ -10,10 +10,12 @@ import com.stefanie.domain.PageResult;
 import com.stefanie.domain.RestResponse;
 import com.stefanie.exception.GlobalException;
 import com.xuecheng.media.mapper.MediaFilesMapper;
+import com.xuecheng.media.mapper.MediaProcessMapper;
 import com.xuecheng.media.model.dto.QueryMediaParamsDto;
 import com.xuecheng.media.model.dto.UploadFileParamsDto;
 import com.xuecheng.media.model.dto.UploadFileResultDto;
 import com.xuecheng.media.model.po.MediaFiles;
+import com.xuecheng.media.model.po.MediaProcess;
 import com.xuecheng.media.service.MediaFileService;
 import io.minio.*;
 import io.minio.errors.*;
@@ -68,6 +70,9 @@ public class MediaFileServiceImpl implements MediaFileService {
 
     @Autowired
     private MediaFileService currentProxy;
+
+    @Autowired
+    private MediaProcessMapper mediaProcessMapper;
 
     @Override
     public PageResult<MediaFiles> queryMediaFiels(Long companyId, PageParam pageParams, QueryMediaParamsDto queryMediaParamsDto) {
@@ -180,12 +185,36 @@ public class MediaFileServiceImpl implements MediaFileService {
                 log.error("向数据库写入失败,bucket:{},objectName:{}", bucket, objectName);
                 return null;
             }
+            //记录待处理任务
+            //通过mimeType判断如果是avi视频就写入待处理任务表
+            addWaitingTask(mediaFiles);
+
             return mediaFiles;
         }
         log.debug("minio文件系统已存在该文件");
         return mediaFiles;
     }
 
+    /**
+    * @Description:  添加待处理任务
+    * @Param: [mediaFiles]
+    * @Author: stefanie
+    * @Date: 2023/10/2~19:02
+    */
+    private void addWaitingTask(MediaFiles mediaFiles){
+        String filename = mediaFiles.getFilename();
+        String substring = filename.substring(filename.lastIndexOf("."));
+        String mimeType = getMimeType(substring);
+        if ("video/x-msvideo".equals(mimeType)){
+            MediaProcess mediaProcess = new MediaProcess();
+            BeanUtils.copyProperties(mediaFiles,mediaProcess);
+            //状态
+            mediaProcess.setStatus("1");
+            mediaProcess.setCreateDate(LocalDateTime.now());
+            mediaProcess.setFailCount(0);
+            mediaProcessMapper.insert(mediaProcess);
+        }
+    }
 
     @Override
     public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath) {
@@ -390,6 +419,9 @@ public class MediaFileServiceImpl implements MediaFileService {
         }
         //4.清理分块文件
         clearChunkFiles(chunkFileFolderPath,chunkTotal);
+
+
+
         return RestResponse.success(true);
     }
 }

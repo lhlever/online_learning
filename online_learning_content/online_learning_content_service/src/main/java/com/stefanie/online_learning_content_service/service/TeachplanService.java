@@ -2,6 +2,7 @@ package com.stefanie.online_learning_content_service.service;
 
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.stefanie.online_learning_content_model.dto.BindTeachPlanMediaDto;
 import com.stefanie.online_learning_content_model.dto.SaveTeachplanDto;
 import com.stefanie.online_learning_content_model.dto.TeachPlanDto;
 import com.stefanie.online_learning_content_model.po.Teachplan;
@@ -30,4 +31,12 @@ public interface TeachplanService extends IService<Teachplan> {
     * @Date: 2023/9/20~21:39
     */
     public void saveTeachPlan(SaveTeachplanDto saveTeachplanDto);
+
+    /**
+    * @Description:  绑定课程信息与媒资
+    * @Param: [bindTeachPlanMediaDto]
+    * @Author: stefanie
+    * @Date: 2023/10/4~8:44
+    */
+    public void associationMedia(BindTeachPlanMediaDto bindTeachPlanMediaDto);
 }

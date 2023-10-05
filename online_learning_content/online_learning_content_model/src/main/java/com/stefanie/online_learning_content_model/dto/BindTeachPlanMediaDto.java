@@ -19,5 +19,5 @@ import lombok.NoArgsConstructor;
 public class BindTeachPlanMediaDto {
     private String mediaId;
     private String fileName;
-    private Long teachPlanId;
+    private Long teachplanId;
 }

@@ -71,12 +71,12 @@ public class TeachplanServiceImpl extends ServiceImpl<TeachplanMapper, Teachplan
     @Override
     public void associationMedia(BindTeachPlanMediaDto bindTeachPlanMediaDto) {
         //先删除原有记录，根据课程计划id删除它所绑定的媒资
-        int delete = teachplanMediaMapper.delete(new LambdaQueryWrapper<>(TeachplanMedia.class).eq(TeachplanMedia::getTeachplanId, bindTeachPlanMediaDto.getTeachPlanId()));
+        int delete = teachplanMediaMapper.delete(new LambdaQueryWrapper<>(TeachplanMedia.class).eq(TeachplanMedia::getTeachplanId, bindTeachPlanMediaDto.getTeachplanId()));
         //在添加新纪录
         TeachplanMedia teachplanMedia = new TeachplanMedia();
         BeanUtils.copyProperties(bindTeachPlanMediaDto,teachplanMedia);
         //查询课程id
-        Teachplan teachplan = teachplanMapper.selectById(bindTeachPlanMediaDto.getTeachPlanId());
+        Teachplan teachplan = teachplanMapper.selectById(bindTeachPlanMediaDto.getTeachplanId());
         if (teachplan==null){
             GlobalException.cast("课程计划不存在");
             return;

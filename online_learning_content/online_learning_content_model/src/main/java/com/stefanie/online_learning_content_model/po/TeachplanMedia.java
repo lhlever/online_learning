@@ -17,7 +17,7 @@ import org.hibernate.validator.constraints.Length;
 *
 * @TableName teachplan_media
 */
-@TableName("teacherplan_media")
+@TableName("teachplan_media")
 @Data
 public class TeachplanMedia implements Serializable {
 

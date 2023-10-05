@@ -147,6 +147,12 @@ public class CourseBaseServiceImpl extends ServiceImpl<CourseBaseMapper, CourseB
         CourseBaseInfoDto courseBaseInfoDto = new CourseBaseInfoDto();
         BeanUtils.copyProperties(courseBase,courseBaseInfoDto);
         BeanUtils.copyProperties(courseMarket,courseBaseInfoDto);
+        CourseCategory mtNameCourseCategory = courseCategoryMapper.selectById(courseBase.getMt());
+        String mtName=mtNameCourseCategory.getName();
+        courseBaseInfoDto.setMt(mtName);
+        CourseCategory stNameCourseCategory = courseCategoryMapper.selectById(courseBase.getSt());
+        String stName=stNameCourseCategory.getName();
+        courseBaseInfoDto.setSt(stName);
         return courseBaseInfoDto;
     }
 

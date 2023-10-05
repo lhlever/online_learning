@@ -84,4 +84,12 @@ public interface MediaFileService {
   * @Date: 2023/10/1~16:32
   */
  public boolean addMediaFilesToMinio(String localFilePath, String mimeType, String bucket, String objectName);
+
+ /**
+ * @Description: 根据媒资id查询媒资信息
+ * @Param: [mediaId]
+ * @Author: stefanie
+ * @Date: 2023/10/4~16:06
+ */
+ public MediaFiles getMediaFilesById(String mediaId);
 }

@@ -136,6 +136,11 @@ public class MediaFileServiceImpl implements MediaFileService {
         return false;
     }
 
+    @Override
+    public MediaFiles getMediaFilesById(String mediaId) {
+        return mediaFilesMapper.selectById(mediaId);
+    }
+
     /**
     * @Description:获取文件默认存储路径：年/月/日
     * @Param: []

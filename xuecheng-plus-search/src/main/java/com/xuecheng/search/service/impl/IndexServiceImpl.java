@@ -1,8 +1,7 @@
 package com.xuecheng.search.service.impl;
 
 import com.alibaba.fastjson.JSON;
-import com.xuecheng.base.exception.XueChengPlusException;
-import com.xuecheng.search.po.CourseIndex;
+import com.stefanie.exception.GlobalException;
 import com.xuecheng.search.service.IndexService;
 import lombok.extern.slf4j.Slf4j;
 import org.elasticsearch.action.DocWriteResponse;
@@ -49,7 +48,7 @@ public class IndexServiceImpl implements IndexService {
   } catch (IOException e) {
    log.error("添加索引出错:{}",e.getMessage());
    e.printStackTrace();
-   XueChengPlusException.cast("添加索引出错");
+   GlobalException.cast("添加索引出错");
   }
   String name = indexResponse.getResult().name();
   System.out.println(name);
@@ -69,7 +68,7 @@ public class IndexServiceImpl implements IndexService {
   } catch (IOException e) {
    log.error("更新索引出错:{}",e.getMessage());
    e.printStackTrace();
-   XueChengPlusException.cast("更新索引出错");
+   GlobalException.cast("更新索引出错");
   }
   DocWriteResponse.Result result = updateResponse.getResult();
   return result.name().equalsIgnoreCase("updated");
@@ -88,7 +87,7 @@ public class IndexServiceImpl implements IndexService {
   } catch (IOException e) {
    log.error("删除索引出错:{}",e.getMessage());
    e.printStackTrace();
-   XueChengPlusException.cast("删除索引出错");
+   GlobalException.cast("删除索引出错");
   }
   //获取响应结果
   DocWriteResponse.Result result = deleteResponse.getResult();

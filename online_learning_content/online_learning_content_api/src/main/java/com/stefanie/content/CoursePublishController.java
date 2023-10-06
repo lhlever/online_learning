@@ -1,6 +1,6 @@
 package com.stefanie.content;
 
-import com.stefanie.online_learning_content_service.service.CoursePublishService;
+import com.stefanie.content.service.CoursePublishService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

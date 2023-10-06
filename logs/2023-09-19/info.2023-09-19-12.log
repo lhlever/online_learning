@@ -310,36 +310,36 @@
 2023-09-19 12:01:01,362 DEBUG [main][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [D:\development_tools\Intellij_IDEA_projects\online_learning\online_learning_content\online_learning_content_service\target\classes\com\stefanie\online_learning_content_service\courseMapper\TeachplanMapper.class]
 2023-09-19 12:01:01,362 DEBUG [main][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [D:\development_tools\Intellij_IDEA_projects\online_learning\online_learning_content\online_learning_content_service\target\classes\com\stefanie\online_learning_content_service\courseMapper\TeachplanMediaMapper.class]
 2023-09-19 12:01:01,362 DEBUG [main][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [D:\development_tools\Intellij_IDEA_projects\online_learning\online_learning_content\online_learning_content_service\target\classes\com\stefanie\online_learning_content_service\courseMapper\TeachplanMediaMapper.class]
-2023-09-19 12:01:01,362 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'courseBaseMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper' mapperInterface
-2023-09-19 12:01:01,362 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'courseBaseMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper' mapperInterface
+2023-09-19 12:01:01,362 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'courseBaseMapper' and 'com.stefanie.content.courseMapper.CourseBaseMapper' mapperInterface
+2023-09-19 12:01:01,362 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'courseBaseMapper' and 'com.stefanie.content.courseMapper.CourseBaseMapper' mapperInterface
 2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Enabling autowire by type for MapperFactoryBean with name 'courseBaseMapper'.
 2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Enabling autowire by type for MapperFactoryBean with name 'courseBaseMapper'.
-2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'courseCategoryMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper' mapperInterface
-2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'courseCategoryMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper' mapperInterface
+2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'courseCategoryMapper' and 'com.stefanie.content.courseMapper.CourseCategoryMapper' mapperInterface
+2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'courseCategoryMapper' and 'com.stefanie.content.courseMapper.CourseCategoryMapper' mapperInterface
 2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Enabling autowire by type for MapperFactoryBean with name 'courseCategoryMapper'.
 2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Enabling autowire by type for MapperFactoryBean with name 'courseCategoryMapper'.
-2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'courseMarketMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper' mapperInterface
+2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'courseMarketMapper' and 'com.stefanie.content.courseMapper.CourseMarketMapper' mapperInterface
 2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Enabling autowire by type for MapperFactoryBean with name 'courseMarketMapper'.
-2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'courseMarketMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper' mapperInterface
-2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'coursePublishMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper' mapperInterface
+2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'courseMarketMapper' and 'com.stefanie.content.courseMapper.CourseMarketMapper' mapperInterface
+2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'coursePublishMapper' and 'com.stefanie.content.courseMapper.CoursePublishMapper' mapperInterface
 2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Enabling autowire by type for MapperFactoryBean with name 'courseMarketMapper'.
-2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'coursePublishMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper' mapperInterface
+2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'coursePublishMapper' and 'com.stefanie.content.courseMapper.CoursePublishMapper' mapperInterface
 2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Enabling autowire by type for MapperFactoryBean with name 'coursePublishMapper'.
 2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Enabling autowire by type for MapperFactoryBean with name 'coursePublishMapper'.
-2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'coursePublishPreMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper' mapperInterface
-2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'coursePublishPreMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper' mapperInterface
+2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'coursePublishPreMapper' and 'com.stefanie.content.courseMapper.CoursePublishPreMapper' mapperInterface
+2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'coursePublishPreMapper' and 'com.stefanie.content.courseMapper.CoursePublishPreMapper' mapperInterface
 2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Enabling autowire by type for MapperFactoryBean with name 'coursePublishPreMapper'.
 2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Enabling autowire by type for MapperFactoryBean with name 'coursePublishPreMapper'.
-2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'courseTeacherMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper' mapperInterface
-2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'courseTeacherMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper' mapperInterface
+2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'courseTeacherMapper' and 'com.stefanie.content.courseMapper.CourseTeacherMapper' mapperInterface
+2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'courseTeacherMapper' and 'com.stefanie.content.courseMapper.CourseTeacherMapper' mapperInterface
 2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Enabling autowire by type for MapperFactoryBean with name 'courseTeacherMapper'.
 2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Enabling autowire by type for MapperFactoryBean with name 'courseTeacherMapper'.
-2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'teachplanMapper' and 'com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper' mapperInterface
-2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'teachplanMapper' and 'com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper' mapperInterface
+2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'teachplanMapper' and 'com.stefanie.content.courseMapper.TeachplanMapper' mapperInterface
+2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'teachplanMapper' and 'com.stefanie.content.courseMapper.TeachplanMapper' mapperInterface
 2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Enabling autowire by type for MapperFactoryBean with name 'teachplanMapper'.
 2023-09-19 12:01:01,363 DEBUG [main][Logger.java:49] - Enabling autowire by type for MapperFactoryBean with name 'teachplanMapper'.
-2023-09-19 12:01:01,364 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'teachplanMediaMapper' and 'com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper' mapperInterface
-2023-09-19 12:01:01,364 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'teachplanMediaMapper' and 'com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper' mapperInterface
+2023-09-19 12:01:01,364 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'teachplanMediaMapper' and 'com.stefanie.content.courseMapper.TeachplanMediaMapper' mapperInterface
+2023-09-19 12:01:01,364 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'teachplanMediaMapper' and 'com.stefanie.content.courseMapper.TeachplanMediaMapper' mapperInterface
 2023-09-19 12:01:01,364 DEBUG [main][Logger.java:49] - Enabling autowire by type for MapperFactoryBean with name 'teachplanMediaMapper'.
 2023-09-19 12:01:01,364 DEBUG [main][Logger.java:49] - Enabling autowire by type for MapperFactoryBean with name 'teachplanMediaMapper'.
 2023-09-19 12:01:01,365 DEBUG [main][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [D:\development_tools\Intellij_IDEA_projects\online_learning\online_learning_content\online_learning_content_service\target\classes\com\stefanie\online_learning_content_service\courseMapper\CourseBaseMapper.class]
@@ -358,24 +358,24 @@
 2023-09-19 12:01:01,366 DEBUG [main][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [D:\development_tools\Intellij_IDEA_projects\online_learning\online_learning_content\online_learning_content_service\target\classes\com\stefanie\online_learning_content_service\courseMapper\TeachplanMapper.class]
 2023-09-19 12:01:01,366 DEBUG [main][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [D:\development_tools\Intellij_IDEA_projects\online_learning\online_learning_content\online_learning_content_service\target\classes\com\stefanie\online_learning_content_service\courseMapper\TeachplanMediaMapper.class]
 2023-09-19 12:01:01,366 DEBUG [main][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [D:\development_tools\Intellij_IDEA_projects\online_learning\online_learning_content\online_learning_content_service\target\classes\com\stefanie\online_learning_content_service\courseMapper\TeachplanMediaMapper.class]
-2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseBaseMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper' mapperInterface. Bean already defined with the same name!
-2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseBaseMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper' mapperInterface. Bean already defined with the same name!
-2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseCategoryMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper' mapperInterface. Bean already defined with the same name!
-2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseCategoryMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper' mapperInterface. Bean already defined with the same name!
-2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseMarketMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper' mapperInterface. Bean already defined with the same name!
-2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseMarketMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper' mapperInterface. Bean already defined with the same name!
-2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'coursePublishMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper' mapperInterface. Bean already defined with the same name!
-2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'coursePublishMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper' mapperInterface. Bean already defined with the same name!
-2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'coursePublishPreMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper' mapperInterface. Bean already defined with the same name!
-2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'coursePublishPreMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper' mapperInterface. Bean already defined with the same name!
-2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseTeacherMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper' mapperInterface. Bean already defined with the same name!
-2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseTeacherMapper' and 'com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper' mapperInterface. Bean already defined with the same name!
-2023-09-19 12:01:01,367 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'teachplanMapper' and 'com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper' mapperInterface. Bean already defined with the same name!
-2023-09-19 12:01:01,367 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'teachplanMapper' and 'com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper' mapperInterface. Bean already defined with the same name!
-2023-09-19 12:01:01,367 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'teachplanMediaMapper' and 'com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper' mapperInterface. Bean already defined with the same name!
-2023-09-19 12:01:01,367 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'teachplanMediaMapper' and 'com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper' mapperInterface. Bean already defined with the same name!
-2023-09-19 12:01:01,367 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.stefanie.online_learning_content_service.courseMapper]' package. Please check your configuration.
-2023-09-19 12:01:01,367 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.stefanie.online_learning_content_service.courseMapper]' package. Please check your configuration.
+2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseBaseMapper' and 'com.stefanie.content.courseMapper.CourseBaseMapper' mapperInterface. Bean already defined with the same name!
+2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseBaseMapper' and 'com.stefanie.content.courseMapper.CourseBaseMapper' mapperInterface. Bean already defined with the same name!
+2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseCategoryMapper' and 'com.stefanie.content.courseMapper.CourseCategoryMapper' mapperInterface. Bean already defined with the same name!
+2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseCategoryMapper' and 'com.stefanie.content.courseMapper.CourseCategoryMapper' mapperInterface. Bean already defined with the same name!
+2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseMarketMapper' and 'com.stefanie.content.courseMapper.CourseMarketMapper' mapperInterface. Bean already defined with the same name!
+2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseMarketMapper' and 'com.stefanie.content.courseMapper.CourseMarketMapper' mapperInterface. Bean already defined with the same name!
+2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'coursePublishMapper' and 'com.stefanie.content.courseMapper.CoursePublishMapper' mapperInterface. Bean already defined with the same name!
+2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'coursePublishMapper' and 'com.stefanie.content.courseMapper.CoursePublishMapper' mapperInterface. Bean already defined with the same name!
+2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'coursePublishPreMapper' and 'com.stefanie.content.courseMapper.CoursePublishPreMapper' mapperInterface. Bean already defined with the same name!
+2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'coursePublishPreMapper' and 'com.stefanie.content.courseMapper.CoursePublishPreMapper' mapperInterface. Bean already defined with the same name!
+2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseTeacherMapper' and 'com.stefanie.content.courseMapper.CourseTeacherMapper' mapperInterface. Bean already defined with the same name!
+2023-09-19 12:01:01,366 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseTeacherMapper' and 'com.stefanie.content.courseMapper.CourseTeacherMapper' mapperInterface. Bean already defined with the same name!
+2023-09-19 12:01:01,367 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'teachplanMapper' and 'com.stefanie.content.courseMapper.TeachplanMapper' mapperInterface. Bean already defined with the same name!
+2023-09-19 12:01:01,367 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'teachplanMapper' and 'com.stefanie.content.courseMapper.TeachplanMapper' mapperInterface. Bean already defined with the same name!
+2023-09-19 12:01:01,367 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'teachplanMediaMapper' and 'com.stefanie.content.courseMapper.TeachplanMediaMapper' mapperInterface. Bean already defined with the same name!
+2023-09-19 12:01:01,367 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'teachplanMediaMapper' and 'com.stefanie.content.courseMapper.TeachplanMediaMapper' mapperInterface. Bean already defined with the same name!
+2023-09-19 12:01:01,367 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.stefanie.content.courseMapper]' package. Please check your configuration.
+2023-09-19 12:01:01,367 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.stefanie.content.courseMapper]' package. Please check your configuration.
 2023-09-19 12:01:01,415 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
 2023-09-19 12:01:01,415 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
 2023-09-19 12:01:01,416 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
@@ -586,310 +586,310 @@
 2023-09-19 12:01:02,239 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'sqlSessionTemplate'
 2023-09-19 12:01:02,239 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'sqlSessionTemplate' via factory method to bean named 'sqlSessionFactory'
 2023-09-19 12:01:02,239 DEBUG [main][ConstructorResolver.java:807] - Autowiring by type from bean name 'sqlSessionTemplate' via factory method to bean named 'sqlSessionFactory'
-2023-09-19 12:01:02,292 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.insert
-2023-09-19 12:01:02,292 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.insert
-2023-09-19 12:01:02,295 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.delete
-2023-09-19 12:01:02,295 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.delete
-2023-09-19 12:01:02,300 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.deleteByMap
-2023-09-19 12:01:02,300 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.deleteByMap
-2023-09-19 12:01:02,314 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.deleteById
-2023-09-19 12:01:02,314 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.deleteById
-2023-09-19 12:01:02,315 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.deleteBatchIds
-2023-09-19 12:01:02,315 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.deleteBatchIds
-2023-09-19 12:01:02,320 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.update
-2023-09-19 12:01:02,320 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.update
-2023-09-19 12:01:02,321 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.updateById
-2023-09-19 12:01:02,321 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.updateById
-2023-09-19 12:01:02,322 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectById
-2023-09-19 12:01:02,322 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectById
-2023-09-19 12:01:02,323 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectBatchIds
-2023-09-19 12:01:02,323 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectBatchIds
-2023-09-19 12:01:02,324 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectByMap
-2023-09-19 12:01:02,324 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectByMap
-2023-09-19 12:01:02,325 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectOne
-2023-09-19 12:01:02,325 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectOne
-2023-09-19 12:01:02,326 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectCount
-2023-09-19 12:01:02,326 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectCount
-2023-09-19 12:01:02,327 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectMaps
-2023-09-19 12:01:02,327 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectMaps
-2023-09-19 12:01:02,329 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectMapsPage
-2023-09-19 12:01:02,329 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectMapsPage
-2023-09-19 12:01:02,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectObjs
-2023-09-19 12:01:02,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectObjs
-2023-09-19 12:01:02,332 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectList
-2023-09-19 12:01:02,332 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectList
-2023-09-19 12:01:02,334 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectPage
-2023-09-19 12:01:02,334 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectPage
+2023-09-19 12:01:02,292 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.insert
+2023-09-19 12:01:02,292 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.insert
+2023-09-19 12:01:02,295 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.delete
+2023-09-19 12:01:02,295 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.delete
+2023-09-19 12:01:02,300 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.deleteByMap
+2023-09-19 12:01:02,300 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.deleteByMap
+2023-09-19 12:01:02,314 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.deleteById
+2023-09-19 12:01:02,314 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.deleteById
+2023-09-19 12:01:02,315 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.deleteBatchIds
+2023-09-19 12:01:02,315 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.deleteBatchIds
+2023-09-19 12:01:02,320 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.update
+2023-09-19 12:01:02,320 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.update
+2023-09-19 12:01:02,321 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.updateById
+2023-09-19 12:01:02,321 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.updateById
+2023-09-19 12:01:02,322 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.selectById
+2023-09-19 12:01:02,322 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.selectById
+2023-09-19 12:01:02,323 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.selectBatchIds
+2023-09-19 12:01:02,323 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.selectBatchIds
+2023-09-19 12:01:02,324 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.selectByMap
+2023-09-19 12:01:02,324 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.selectByMap
+2023-09-19 12:01:02,325 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.selectOne
+2023-09-19 12:01:02,325 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.selectOne
+2023-09-19 12:01:02,326 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.selectCount
+2023-09-19 12:01:02,326 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.selectCount
+2023-09-19 12:01:02,327 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.selectMaps
+2023-09-19 12:01:02,327 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.selectMaps
+2023-09-19 12:01:02,329 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.selectMapsPage
+2023-09-19 12:01:02,329 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.selectMapsPage
+2023-09-19 12:01:02,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.selectObjs
+2023-09-19 12:01:02,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.selectObjs
+2023-09-19 12:01:02,332 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.selectList
+2023-09-19 12:01:02,332 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.selectList
+2023-09-19 12:01:02,334 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.selectPage
+2023-09-19 12:01:02,334 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseBaseMapper.selectPage
 2023-09-19 12:01:02,352 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'courseCategoryController'
 2023-09-19 12:01:02,352 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'courseCategoryController'
 2023-09-19 12:01:02,353 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'courseCategoryServiceImpl'
 2023-09-19 12:01:02,353 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'courseCategoryServiceImpl'
 2023-09-19 12:01:02,354 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'courseCategoryMapper'
 2023-09-19 12:01:02,354 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'courseCategoryMapper'
-2023-09-19 12:01:02,358 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.insert
-2023-09-19 12:01:02,358 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.insert
-2023-09-19 12:01:02,359 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.delete
-2023-09-19 12:01:02,359 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.delete
-2023-09-19 12:01:02,360 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.deleteByMap
-2023-09-19 12:01:02,360 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.deleteByMap
-2023-09-19 12:01:02,361 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.deleteById
-2023-09-19 12:01:02,361 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.deleteById
-2023-09-19 12:01:02,361 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.deleteBatchIds
-2023-09-19 12:01:02,361 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.deleteBatchIds
-2023-09-19 12:01:02,362 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.update
-2023-09-19 12:01:02,362 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.update
-2023-09-19 12:01:02,363 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.updateById
-2023-09-19 12:01:02,363 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.updateById
-2023-09-19 12:01:02,363 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.selectById
-2023-09-19 12:01:02,363 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.selectById
-2023-09-19 12:01:02,364 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.selectBatchIds
-2023-09-19 12:01:02,364 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.selectBatchIds
-2023-09-19 12:01:02,365 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.selectByMap
-2023-09-19 12:01:02,365 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.selectByMap
-2023-09-19 12:01:02,366 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.selectOne
-2023-09-19 12:01:02,366 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.selectOne
-2023-09-19 12:01:02,368 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.selectCount
-2023-09-19 12:01:02,368 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.selectCount
-2023-09-19 12:01:02,369 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.selectMaps
-2023-09-19 12:01:02,369 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.selectMaps
-2023-09-19 12:01:02,370 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.selectMapsPage
-2023-09-19 12:01:02,370 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.selectMapsPage
-2023-09-19 12:01:02,370 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.selectObjs
-2023-09-19 12:01:02,370 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.selectObjs
-2023-09-19 12:01:02,371 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.selectList
-2023-09-19 12:01:02,371 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.selectList
-2023-09-19 12:01:02,372 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.selectPage
-2023-09-19 12:01:02,372 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper.selectPage
+2023-09-19 12:01:02,358 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.insert
+2023-09-19 12:01:02,358 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.insert
+2023-09-19 12:01:02,359 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.delete
+2023-09-19 12:01:02,359 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.delete
+2023-09-19 12:01:02,360 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.deleteByMap
+2023-09-19 12:01:02,360 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.deleteByMap
+2023-09-19 12:01:02,361 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.deleteById
+2023-09-19 12:01:02,361 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.deleteById
+2023-09-19 12:01:02,361 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.deleteBatchIds
+2023-09-19 12:01:02,361 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.deleteBatchIds
+2023-09-19 12:01:02,362 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.update
+2023-09-19 12:01:02,362 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.update
+2023-09-19 12:01:02,363 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.updateById
+2023-09-19 12:01:02,363 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.updateById
+2023-09-19 12:01:02,363 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.selectById
+2023-09-19 12:01:02,363 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.selectById
+2023-09-19 12:01:02,364 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.selectBatchIds
+2023-09-19 12:01:02,364 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.selectBatchIds
+2023-09-19 12:01:02,365 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.selectByMap
+2023-09-19 12:01:02,365 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.selectByMap
+2023-09-19 12:01:02,366 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.selectOne
+2023-09-19 12:01:02,366 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.selectOne
+2023-09-19 12:01:02,368 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.selectCount
+2023-09-19 12:01:02,368 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.selectCount
+2023-09-19 12:01:02,369 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.selectMaps
+2023-09-19 12:01:02,369 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.selectMaps
+2023-09-19 12:01:02,370 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.selectMapsPage
+2023-09-19 12:01:02,370 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.selectMapsPage
+2023-09-19 12:01:02,370 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.selectObjs
+2023-09-19 12:01:02,370 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.selectObjs
+2023-09-19 12:01:02,371 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.selectList
+2023-09-19 12:01:02,371 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.selectList
+2023-09-19 12:01:02,372 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.selectPage
+2023-09-19 12:01:02,372 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseCategoryMapper.selectPage
 2023-09-19 12:01:02,378 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'onlineLearningContentServiceApplication'
 2023-09-19 12:01:02,378 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'onlineLearningContentServiceApplication'
 2023-09-19 12:01:02,379 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'courseMarketServiceImpl'
 2023-09-19 12:01:02,379 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'courseMarketServiceImpl'
 2023-09-19 12:01:02,380 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'courseMarketMapper'
 2023-09-19 12:01:02,380 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'courseMarketMapper'
-2023-09-19 12:01:02,384 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.insert
-2023-09-19 12:01:02,384 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.insert
-2023-09-19 12:01:02,385 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.delete
-2023-09-19 12:01:02,385 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.delete
-2023-09-19 12:01:02,386 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.deleteByMap
-2023-09-19 12:01:02,386 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.deleteByMap
-2023-09-19 12:01:02,386 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.deleteById
-2023-09-19 12:01:02,386 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.deleteById
-2023-09-19 12:01:02,387 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.deleteBatchIds
-2023-09-19 12:01:02,387 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.deleteBatchIds
-2023-09-19 12:01:02,388 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.update
-2023-09-19 12:01:02,388 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.update
-2023-09-19 12:01:02,389 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.updateById
-2023-09-19 12:01:02,389 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.updateById
-2023-09-19 12:01:02,389 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.selectById
-2023-09-19 12:01:02,389 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.selectById
-2023-09-19 12:01:02,390 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.selectBatchIds
-2023-09-19 12:01:02,390 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.selectBatchIds
-2023-09-19 12:01:02,390 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.selectByMap
-2023-09-19 12:01:02,390 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.selectByMap
-2023-09-19 12:01:02,391 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.selectOne
-2023-09-19 12:01:02,391 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.selectOne
-2023-09-19 12:01:02,392 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.selectCount
-2023-09-19 12:01:02,392 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.selectCount
-2023-09-19 12:01:02,393 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.selectMaps
-2023-09-19 12:01:02,393 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.selectMaps
-2023-09-19 12:01:02,393 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.selectMapsPage
-2023-09-19 12:01:02,393 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.selectMapsPage
-2023-09-19 12:01:02,394 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.selectObjs
-2023-09-19 12:01:02,394 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.selectObjs
-2023-09-19 12:01:02,395 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.selectList
-2023-09-19 12:01:02,395 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.selectList
-2023-09-19 12:01:02,395 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.selectPage
-2023-09-19 12:01:02,395 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseMarketMapper.selectPage
+2023-09-19 12:01:02,384 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.insert
+2023-09-19 12:01:02,384 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.insert
+2023-09-19 12:01:02,385 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.delete
+2023-09-19 12:01:02,385 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.delete
+2023-09-19 12:01:02,386 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.deleteByMap
+2023-09-19 12:01:02,386 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.deleteByMap
+2023-09-19 12:01:02,386 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.deleteById
+2023-09-19 12:01:02,386 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.deleteById
+2023-09-19 12:01:02,387 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.deleteBatchIds
+2023-09-19 12:01:02,387 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.deleteBatchIds
+2023-09-19 12:01:02,388 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.update
+2023-09-19 12:01:02,388 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.update
+2023-09-19 12:01:02,389 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.updateById
+2023-09-19 12:01:02,389 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.updateById
+2023-09-19 12:01:02,389 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.selectById
+2023-09-19 12:01:02,389 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.selectById
+2023-09-19 12:01:02,390 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.selectBatchIds
+2023-09-19 12:01:02,390 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.selectBatchIds
+2023-09-19 12:01:02,390 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.selectByMap
+2023-09-19 12:01:02,390 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.selectByMap
+2023-09-19 12:01:02,391 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.selectOne
+2023-09-19 12:01:02,391 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.selectOne
+2023-09-19 12:01:02,392 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.selectCount
+2023-09-19 12:01:02,392 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.selectCount
+2023-09-19 12:01:02,393 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.selectMaps
+2023-09-19 12:01:02,393 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.selectMaps
+2023-09-19 12:01:02,393 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.selectMapsPage
+2023-09-19 12:01:02,393 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.selectMapsPage
+2023-09-19 12:01:02,394 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.selectObjs
+2023-09-19 12:01:02,394 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.selectObjs
+2023-09-19 12:01:02,395 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.selectList
+2023-09-19 12:01:02,395 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.selectList
+2023-09-19 12:01:02,395 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.selectPage
+2023-09-19 12:01:02,395 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseMarketMapper.selectPage
 2023-09-19 12:01:02,401 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'coursePublishPreServiceImpl'
 2023-09-19 12:01:02,401 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'coursePublishPreServiceImpl'
 2023-09-19 12:01:02,403 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'coursePublishPreMapper'
 2023-09-19 12:01:02,403 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'coursePublishPreMapper'
-2023-09-19 12:01:02,406 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.insert
-2023-09-19 12:01:02,406 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.insert
-2023-09-19 12:01:02,407 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.delete
-2023-09-19 12:01:02,407 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.delete
-2023-09-19 12:01:02,408 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.deleteByMap
-2023-09-19 12:01:02,408 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.deleteByMap
-2023-09-19 12:01:02,408 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.deleteById
-2023-09-19 12:01:02,408 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.deleteById
-2023-09-19 12:01:02,409 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.deleteBatchIds
-2023-09-19 12:01:02,409 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.deleteBatchIds
-2023-09-19 12:01:02,410 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.update
-2023-09-19 12:01:02,410 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.update
-2023-09-19 12:01:02,411 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.updateById
-2023-09-19 12:01:02,411 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.updateById
-2023-09-19 12:01:02,411 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.selectById
-2023-09-19 12:01:02,411 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.selectById
-2023-09-19 12:01:02,411 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.selectBatchIds
-2023-09-19 12:01:02,411 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.selectBatchIds
-2023-09-19 12:01:02,412 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.selectByMap
-2023-09-19 12:01:02,412 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.selectByMap
-2023-09-19 12:01:02,413 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.selectOne
-2023-09-19 12:01:02,413 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.selectOne
-2023-09-19 12:01:02,414 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.selectCount
-2023-09-19 12:01:02,414 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.selectCount
-2023-09-19 12:01:02,415 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.selectMaps
-2023-09-19 12:01:02,415 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.selectMaps
-2023-09-19 12:01:02,416 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.selectMapsPage
-2023-09-19 12:01:02,416 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.selectMapsPage
-2023-09-19 12:01:02,418 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.selectObjs
-2023-09-19 12:01:02,418 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.selectObjs
-2023-09-19 12:01:02,419 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.selectList
-2023-09-19 12:01:02,419 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.selectList
-2023-09-19 12:01:02,420 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.selectPage
-2023-09-19 12:01:02,420 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishPreMapper.selectPage
+2023-09-19 12:01:02,406 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.insert
+2023-09-19 12:01:02,406 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.insert
+2023-09-19 12:01:02,407 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.delete
+2023-09-19 12:01:02,407 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.delete
+2023-09-19 12:01:02,408 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.deleteByMap
+2023-09-19 12:01:02,408 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.deleteByMap
+2023-09-19 12:01:02,408 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.deleteById
+2023-09-19 12:01:02,408 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.deleteById
+2023-09-19 12:01:02,409 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.deleteBatchIds
+2023-09-19 12:01:02,409 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.deleteBatchIds
+2023-09-19 12:01:02,410 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.update
+2023-09-19 12:01:02,410 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.update
+2023-09-19 12:01:02,411 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.updateById
+2023-09-19 12:01:02,411 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.updateById
+2023-09-19 12:01:02,411 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.selectById
+2023-09-19 12:01:02,411 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.selectById
+2023-09-19 12:01:02,411 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.selectBatchIds
+2023-09-19 12:01:02,411 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.selectBatchIds
+2023-09-19 12:01:02,412 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.selectByMap
+2023-09-19 12:01:02,412 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.selectByMap
+2023-09-19 12:01:02,413 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.selectOne
+2023-09-19 12:01:02,413 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.selectOne
+2023-09-19 12:01:02,414 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.selectCount
+2023-09-19 12:01:02,414 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.selectCount
+2023-09-19 12:01:02,415 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.selectMaps
+2023-09-19 12:01:02,415 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.selectMaps
+2023-09-19 12:01:02,416 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.selectMapsPage
+2023-09-19 12:01:02,416 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.selectMapsPage
+2023-09-19 12:01:02,418 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.selectObjs
+2023-09-19 12:01:02,418 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.selectObjs
+2023-09-19 12:01:02,419 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.selectList
+2023-09-19 12:01:02,419 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.selectList
+2023-09-19 12:01:02,420 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.selectPage
+2023-09-19 12:01:02,420 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishPreMapper.selectPage
 2023-09-19 12:01:02,424 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'coursePublishServiceImpl'
 2023-09-19 12:01:02,424 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'coursePublishServiceImpl'
 2023-09-19 12:01:02,426 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'coursePublishMapper'
 2023-09-19 12:01:02,426 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'coursePublishMapper'
-2023-09-19 12:01:02,429 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.insert
-2023-09-19 12:01:02,429 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.insert
-2023-09-19 12:01:02,430 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.delete
-2023-09-19 12:01:02,430 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.delete
-2023-09-19 12:01:02,430 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.deleteByMap
-2023-09-19 12:01:02,430 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.deleteByMap
-2023-09-19 12:01:02,431 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.deleteById
-2023-09-19 12:01:02,431 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.deleteById
-2023-09-19 12:01:02,432 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.deleteBatchIds
-2023-09-19 12:01:02,432 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.deleteBatchIds
-2023-09-19 12:01:02,433 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.update
-2023-09-19 12:01:02,433 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.update
-2023-09-19 12:01:02,434 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.updateById
-2023-09-19 12:01:02,434 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.updateById
-2023-09-19 12:01:02,434 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.selectById
-2023-09-19 12:01:02,434 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.selectById
-2023-09-19 12:01:02,435 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.selectBatchIds
-2023-09-19 12:01:02,435 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.selectBatchIds
-2023-09-19 12:01:02,436 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.selectByMap
-2023-09-19 12:01:02,436 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.selectByMap
-2023-09-19 12:01:02,437 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.selectOne
-2023-09-19 12:01:02,437 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.selectOne
-2023-09-19 12:01:02,437 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.selectCount
-2023-09-19 12:01:02,437 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.selectCount
-2023-09-19 12:01:02,438 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.selectMaps
-2023-09-19 12:01:02,438 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.selectMaps
-2023-09-19 12:01:02,439 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.selectMapsPage
-2023-09-19 12:01:02,439 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.selectMapsPage
-2023-09-19 12:01:02,440 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.selectObjs
-2023-09-19 12:01:02,440 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.selectObjs
-2023-09-19 12:01:02,441 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.selectList
-2023-09-19 12:01:02,441 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.selectList
-2023-09-19 12:01:02,442 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.selectPage
-2023-09-19 12:01:02,442 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CoursePublishMapper.selectPage
+2023-09-19 12:01:02,429 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.insert
+2023-09-19 12:01:02,429 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.insert
+2023-09-19 12:01:02,430 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.delete
+2023-09-19 12:01:02,430 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.delete
+2023-09-19 12:01:02,430 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.deleteByMap
+2023-09-19 12:01:02,430 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.deleteByMap
+2023-09-19 12:01:02,431 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.deleteById
+2023-09-19 12:01:02,431 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.deleteById
+2023-09-19 12:01:02,432 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.deleteBatchIds
+2023-09-19 12:01:02,432 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.deleteBatchIds
+2023-09-19 12:01:02,433 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.update
+2023-09-19 12:01:02,433 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.update
+2023-09-19 12:01:02,434 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.updateById
+2023-09-19 12:01:02,434 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.updateById
+2023-09-19 12:01:02,434 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.selectById
+2023-09-19 12:01:02,434 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.selectById
+2023-09-19 12:01:02,435 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.selectBatchIds
+2023-09-19 12:01:02,435 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.selectBatchIds
+2023-09-19 12:01:02,436 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.selectByMap
+2023-09-19 12:01:02,436 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.selectByMap
+2023-09-19 12:01:02,437 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.selectOne
+2023-09-19 12:01:02,437 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.selectOne
+2023-09-19 12:01:02,437 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.selectCount
+2023-09-19 12:01:02,437 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.selectCount
+2023-09-19 12:01:02,438 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.selectMaps
+2023-09-19 12:01:02,438 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.selectMaps
+2023-09-19 12:01:02,439 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.selectMapsPage
+2023-09-19 12:01:02,439 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.selectMapsPage
+2023-09-19 12:01:02,440 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.selectObjs
+2023-09-19 12:01:02,440 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.selectObjs
+2023-09-19 12:01:02,441 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.selectList
+2023-09-19 12:01:02,441 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.selectList
+2023-09-19 12:01:02,442 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.selectPage
+2023-09-19 12:01:02,442 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CoursePublishMapper.selectPage
 2023-09-19 12:01:02,448 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'courseTeacherServiceImpl'
 2023-09-19 12:01:02,448 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'courseTeacherServiceImpl'
 2023-09-19 12:01:02,450 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'courseTeacherMapper'
 2023-09-19 12:01:02,450 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'courseTeacherMapper'
-2023-09-19 12:01:02,453 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.insert
-2023-09-19 12:01:02,453 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.insert
-2023-09-19 12:01:02,454 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.delete
-2023-09-19 12:01:02,454 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.delete
-2023-09-19 12:01:02,455 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.deleteByMap
-2023-09-19 12:01:02,455 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.deleteByMap
-2023-09-19 12:01:02,456 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.deleteById
-2023-09-19 12:01:02,456 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.deleteById
-2023-09-19 12:01:02,457 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.deleteBatchIds
-2023-09-19 12:01:02,457 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.deleteBatchIds
-2023-09-19 12:01:02,458 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.update
-2023-09-19 12:01:02,458 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.update
-2023-09-19 12:01:02,458 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.updateById
-2023-09-19 12:01:02,458 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.updateById
-2023-09-19 12:01:02,459 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.selectById
-2023-09-19 12:01:02,459 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.selectById
-2023-09-19 12:01:02,459 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.selectBatchIds
-2023-09-19 12:01:02,459 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.selectBatchIds
-2023-09-19 12:01:02,460 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.selectByMap
-2023-09-19 12:01:02,460 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.selectByMap
-2023-09-19 12:01:02,460 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.selectOne
-2023-09-19 12:01:02,460 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.selectOne
-2023-09-19 12:01:02,461 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.selectCount
-2023-09-19 12:01:02,461 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.selectCount
-2023-09-19 12:01:02,462 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.selectMaps
-2023-09-19 12:01:02,462 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.selectMaps
-2023-09-19 12:01:02,462 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.selectMapsPage
-2023-09-19 12:01:02,462 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.selectMapsPage
-2023-09-19 12:01:02,463 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.selectObjs
-2023-09-19 12:01:02,463 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.selectObjs
-2023-09-19 12:01:02,464 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.selectList
-2023-09-19 12:01:02,464 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.selectList
-2023-09-19 12:01:02,466 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.selectPage
-2023-09-19 12:01:02,466 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.CourseTeacherMapper.selectPage
+2023-09-19 12:01:02,453 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.insert
+2023-09-19 12:01:02,453 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.insert
+2023-09-19 12:01:02,454 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.delete
+2023-09-19 12:01:02,454 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.delete
+2023-09-19 12:01:02,455 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.deleteByMap
+2023-09-19 12:01:02,455 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.deleteByMap
+2023-09-19 12:01:02,456 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.deleteById
+2023-09-19 12:01:02,456 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.deleteById
+2023-09-19 12:01:02,457 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.deleteBatchIds
+2023-09-19 12:01:02,457 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.deleteBatchIds
+2023-09-19 12:01:02,458 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.update
+2023-09-19 12:01:02,458 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.update
+2023-09-19 12:01:02,458 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.updateById
+2023-09-19 12:01:02,458 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.updateById
+2023-09-19 12:01:02,459 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.selectById
+2023-09-19 12:01:02,459 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.selectById
+2023-09-19 12:01:02,459 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.selectBatchIds
+2023-09-19 12:01:02,459 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.selectBatchIds
+2023-09-19 12:01:02,460 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.selectByMap
+2023-09-19 12:01:02,460 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.selectByMap
+2023-09-19 12:01:02,460 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.selectOne
+2023-09-19 12:01:02,460 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.selectOne
+2023-09-19 12:01:02,461 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.selectCount
+2023-09-19 12:01:02,461 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.selectCount
+2023-09-19 12:01:02,462 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.selectMaps
+2023-09-19 12:01:02,462 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.selectMaps
+2023-09-19 12:01:02,462 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.selectMapsPage
+2023-09-19 12:01:02,462 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.selectMapsPage
+2023-09-19 12:01:02,463 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.selectObjs
+2023-09-19 12:01:02,463 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.selectObjs
+2023-09-19 12:01:02,464 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.selectList
+2023-09-19 12:01:02,464 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.selectList
+2023-09-19 12:01:02,466 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.selectPage
+2023-09-19 12:01:02,466 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.CourseTeacherMapper.selectPage
 2023-09-19 12:01:02,471 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'teachplanMediaServiceImpl'
 2023-09-19 12:01:02,471 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'teachplanMediaServiceImpl'
 2023-09-19 12:01:02,472 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'teachplanMediaMapper'
 2023-09-19 12:01:02,472 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'teachplanMediaMapper'
-2023-09-19 12:01:02,475 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.insert
-2023-09-19 12:01:02,475 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.insert
-2023-09-19 12:01:02,475 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.delete
-2023-09-19 12:01:02,475 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.delete
-2023-09-19 12:01:02,476 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.deleteByMap
-2023-09-19 12:01:02,476 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.deleteByMap
-2023-09-19 12:01:02,477 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.deleteById
-2023-09-19 12:01:02,477 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.deleteById
-2023-09-19 12:01:02,477 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.deleteBatchIds
-2023-09-19 12:01:02,477 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.deleteBatchIds
-2023-09-19 12:01:02,478 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.update
-2023-09-19 12:01:02,478 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.update
-2023-09-19 12:01:02,479 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.updateById
-2023-09-19 12:01:02,479 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.updateById
-2023-09-19 12:01:02,479 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.selectById
-2023-09-19 12:01:02,479 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.selectById
-2023-09-19 12:01:02,480 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.selectBatchIds
-2023-09-19 12:01:02,480 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.selectBatchIds
-2023-09-19 12:01:02,480 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.selectByMap
-2023-09-19 12:01:02,480 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.selectByMap
-2023-09-19 12:01:02,483 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.selectOne
-2023-09-19 12:01:02,483 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.selectOne
-2023-09-19 12:01:02,484 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.selectCount
-2023-09-19 12:01:02,484 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.selectCount
-2023-09-19 12:01:02,485 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.selectMaps
-2023-09-19 12:01:02,485 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.selectMaps
-2023-09-19 12:01:02,486 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.selectMapsPage
-2023-09-19 12:01:02,486 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.selectMapsPage
-2023-09-19 12:01:02,487 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.selectObjs
-2023-09-19 12:01:02,487 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.selectObjs
-2023-09-19 12:01:02,488 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.selectList
-2023-09-19 12:01:02,488 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.selectList
-2023-09-19 12:01:02,488 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.selectPage
-2023-09-19 12:01:02,488 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMediaMapper.selectPage
+2023-09-19 12:01:02,475 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.insert
+2023-09-19 12:01:02,475 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.insert
+2023-09-19 12:01:02,475 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.delete
+2023-09-19 12:01:02,475 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.delete
+2023-09-19 12:01:02,476 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.deleteByMap
+2023-09-19 12:01:02,476 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.deleteByMap
+2023-09-19 12:01:02,477 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.deleteById
+2023-09-19 12:01:02,477 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.deleteById
+2023-09-19 12:01:02,477 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.deleteBatchIds
+2023-09-19 12:01:02,477 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.deleteBatchIds
+2023-09-19 12:01:02,478 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.update
+2023-09-19 12:01:02,478 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.update
+2023-09-19 12:01:02,479 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.updateById
+2023-09-19 12:01:02,479 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.updateById
+2023-09-19 12:01:02,479 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.selectById
+2023-09-19 12:01:02,479 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.selectById
+2023-09-19 12:01:02,480 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.selectBatchIds
+2023-09-19 12:01:02,480 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.selectBatchIds
+2023-09-19 12:01:02,480 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.selectByMap
+2023-09-19 12:01:02,480 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.selectByMap
+2023-09-19 12:01:02,483 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.selectOne
+2023-09-19 12:01:02,483 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.selectOne
+2023-09-19 12:01:02,484 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.selectCount
+2023-09-19 12:01:02,484 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.selectCount
+2023-09-19 12:01:02,485 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.selectMaps
+2023-09-19 12:01:02,485 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.selectMaps
+2023-09-19 12:01:02,486 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.selectMapsPage
+2023-09-19 12:01:02,486 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.selectMapsPage
+2023-09-19 12:01:02,487 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.selectObjs
+2023-09-19 12:01:02,487 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.selectObjs
+2023-09-19 12:01:02,488 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.selectList
+2023-09-19 12:01:02,488 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.selectList
+2023-09-19 12:01:02,488 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.selectPage
+2023-09-19 12:01:02,488 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMediaMapper.selectPage
 2023-09-19 12:01:02,492 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'teachplanServiceImpl'
 2023-09-19 12:01:02,492 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'teachplanServiceImpl'
 2023-09-19 12:01:02,493 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'teachplanMapper'
 2023-09-19 12:01:02,493 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'teachplanMapper'
-2023-09-19 12:01:02,498 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.insert
-2023-09-19 12:01:02,498 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.insert
-2023-09-19 12:01:02,499 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.delete
-2023-09-19 12:01:02,499 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.delete
-2023-09-19 12:01:02,500 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.deleteByMap
-2023-09-19 12:01:02,500 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.deleteByMap
-2023-09-19 12:01:02,502 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.deleteById
-2023-09-19 12:01:02,502 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.deleteById
-2023-09-19 12:01:02,503 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.deleteBatchIds
-2023-09-19 12:01:02,503 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.deleteBatchIds
-2023-09-19 12:01:02,503 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.update
-2023-09-19 12:01:02,503 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.update
-2023-09-19 12:01:02,504 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.updateById
-2023-09-19 12:01:02,504 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.updateById
-2023-09-19 12:01:02,504 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.selectById
-2023-09-19 12:01:02,504 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.selectById
-2023-09-19 12:01:02,505 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.selectBatchIds
-2023-09-19 12:01:02,505 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.selectBatchIds
-2023-09-19 12:01:02,506 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.selectByMap
-2023-09-19 12:01:02,506 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.selectByMap
-2023-09-19 12:01:02,507 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.selectOne
-2023-09-19 12:01:02,507 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.selectOne
-2023-09-19 12:01:02,508 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.selectCount
-2023-09-19 12:01:02,508 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.selectCount
-2023-09-19 12:01:02,509 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.selectMaps
-2023-09-19 12:01:02,509 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.selectMaps
-2023-09-19 12:01:02,510 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.selectMapsPage
-2023-09-19 12:01:02,510 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.selectMapsPage
-2023-09-19 12:01:02,511 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.selectObjs
-2023-09-19 12:01:02,511 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.selectObjs
-2023-09-19 12:01:02,515 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.selectList
-2023-09-19 12:01:02,515 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.selectList
-2023-09-19 12:01:02,519 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.selectPage
-2023-09-19 12:01:02,519 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper.selectPage
+2023-09-19 12:01:02,498 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.insert
+2023-09-19 12:01:02,498 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.insert
+2023-09-19 12:01:02,499 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.delete
+2023-09-19 12:01:02,499 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.delete
+2023-09-19 12:01:02,500 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.deleteByMap
+2023-09-19 12:01:02,500 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.deleteByMap
+2023-09-19 12:01:02,502 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.deleteById
+2023-09-19 12:01:02,502 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.deleteById
+2023-09-19 12:01:02,503 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.deleteBatchIds
+2023-09-19 12:01:02,503 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.deleteBatchIds
+2023-09-19 12:01:02,503 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.update
+2023-09-19 12:01:02,503 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.update
+2023-09-19 12:01:02,504 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.updateById
+2023-09-19 12:01:02,504 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.updateById
+2023-09-19 12:01:02,504 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.selectById
+2023-09-19 12:01:02,504 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.selectById
+2023-09-19 12:01:02,505 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.selectBatchIds
+2023-09-19 12:01:02,505 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.selectBatchIds
+2023-09-19 12:01:02,506 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.selectByMap
+2023-09-19 12:01:02,506 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.selectByMap
+2023-09-19 12:01:02,507 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.selectOne
+2023-09-19 12:01:02,507 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.selectOne
+2023-09-19 12:01:02,508 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.selectCount
+2023-09-19 12:01:02,508 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.selectCount
+2023-09-19 12:01:02,509 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.selectMaps
+2023-09-19 12:01:02,509 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.selectMaps
+2023-09-19 12:01:02,510 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.selectMapsPage
+2023-09-19 12:01:02,510 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.selectMapsPage
+2023-09-19 12:01:02,511 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.selectObjs
+2023-09-19 12:01:02,511 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.selectObjs
+2023-09-19 12:01:02,515 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.selectList
+2023-09-19 12:01:02,515 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.selectList
+2023-09-19 12:01:02,519 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.selectPage
+2023-09-19 12:01:02,519 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.stefanie.content.courseMapper.TeachplanMapper.selectPage
 2023-09-19 12:01:02,525 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'serviceModelToSwagger2MapperImpl'
 2023-09-19 12:01:02,525 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'serviceModelToSwagger2MapperImpl'
 2023-09-19 12:01:02,532 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'modelMapperImpl'
@@ -1782,7 +1782,7 @@
 2023-09-19 12:01:03,158 DEBUG [main][DefaultLifecycleProcessor.java:188] - Successfully started bean 'documentationPluginsBootstrapper'
 2023-09-19 12:01:03,158 DEBUG [main][DefaultLifecycleProcessor.java:188] - Successfully started bean 'webServerGracefulShutdown'
 2023-09-19 12:01:03,158 DEBUG [main][DefaultLifecycleProcessor.java:188] - Successfully started bean 'webServerGracefulShutdown'
-2023-09-19 12:01:03,164 DEBUG [main][ConditionEvaluationReportLoggingListener.java:126] - 
+2023-09-19 12:01:03,164 DEBUG [main][ConditionEvaluationReportLoggingListener.java:126] -
 
 
 ============================
@@ -2705,7 +2705,7 @@ Unconditional classes:
 
 
 
-2023-09-19 12:01:03,164 DEBUG [main][ConditionEvaluationReportLoggingListener.java:126] - 
+2023-09-19 12:01:03,164 DEBUG [main][ConditionEvaluationReportLoggingListener.java:126] -
 
 
 ============================
@@ -3736,8 +3736,8 @@ Unconditional classes:
 2023-09-19 12:01:08,726 DEBUG [http-nio-63040-exec-1][Logger.java:49] - JDBC Connection [HikariProxyConnection@1554925194 wrapping com.mysql.cj.jdbc.ConnectionImpl@36a149c5] will not be managed by Spring
 2023-09-19 12:01:08,731 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category
 2023-09-19 12:01:08,731 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category
-2023-09-19 12:01:08,751 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 
-2023-09-19 12:01:08,751 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 
+2023-09-19 12:01:08,751 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters:
+2023-09-19 12:01:08,751 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters:
 2023-09-19 12:01:08,777 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 144
 2023-09-19 12:01:08,777 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 144
 2023-09-19 12:01:08,779 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a33cc2c]
@@ -3783,9 +3783,9 @@ Unconditional classes:
 2023-09-19 12:01:12,060 DEBUG [http-nio-63040-exec-3][Logger.java:49] - JDBC Connection [HikariProxyConnection@792680315 wrapping com.mysql.cj.jdbc.ConnectionImpl@36a149c5] will not be managed by Spring
 2023-09-19 12:01:12,060 DEBUG [http-nio-63040-exec-3][Logger.java:49] - JDBC Connection [HikariProxyConnection@792680315 wrapping com.mysql.cj.jdbc.ConnectionImpl@36a149c5] will not be managed by Spring
 2023-09-19 12:01:12,061 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category
-2023-09-19 12:01:12,061 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 
+2023-09-19 12:01:12,061 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters:
 2023-09-19 12:01:12,061 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category
-2023-09-19 12:01:12,061 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 
+2023-09-19 12:01:12,061 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters:
 2023-09-19 12:01:12,066 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 144
 2023-09-19 12:01:12,066 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21f8ad34]
 2023-09-19 12:01:12,066 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 144
@@ -3810,8 +3810,8 @@ Unconditional classes:
 2023-09-19 12:01:13,200 DEBUG [http-nio-63040-exec-4][Logger.java:49] - JDBC Connection [HikariProxyConnection@1484648483 wrapping com.mysql.cj.jdbc.ConnectionImpl@36a149c5] will not be managed by Spring
 2023-09-19 12:01:13,200 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category
 2023-09-19 12:01:13,200 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category
-2023-09-19 12:01:13,200 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 
-2023-09-19 12:01:13,200 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 
+2023-09-19 12:01:13,200 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters:
+2023-09-19 12:01:13,200 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters:
 2023-09-19 12:01:13,204 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 144
 2023-09-19 12:01:13,204 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 144
 2023-09-19 12:01:13,206 DEBUG [http-nio-63040-exec-4][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56ba1484]

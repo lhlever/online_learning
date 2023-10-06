@@ -6,9 +6,9 @@
 2023-09-19 19:55:18,013 ERROR [http-nio-63040-exec-4][CourseBaseServiceImpl.java:117] - -1.0-------------
 2023-09-19 19:55:32,618 ERROR [http-nio-63040-exec-4][GlobalExceptionHandler.java:33] - 系统异常价格没有填写or价格不合法
 java.lang.RuntimeException: 价格没有填写or价格不合法
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl.saveCourseMaket(CourseBaseServiceImpl.java:118)
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl.createCourseBase(CourseBaseServiceImpl.java:93)
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl$$FastClassBySpringCGLIB$$efe342fe.invoke(<generated>)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl.saveCourseMaket(CourseBaseServiceImpl.java:118)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl.createCourseBase(CourseBaseServiceImpl.java:93)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl$$FastClassBySpringCGLIB$$efe342fe.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
@@ -18,7 +18,7 @@ java.lang.RuntimeException: 价格没有填写or价格不合法
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl$$EnhancerBySpringCGLIB$$e22517dd.createCourseBase(<generated>)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl$$EnhancerBySpringCGLIB$$e22517dd.createCourseBase(<generated>)
 	at com.stefanie.content.CourseBaseInfoController.createCourseBase(CourseBaseInfoController.java:47)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -74,9 +74,9 @@ java.lang.RuntimeException: 价格没有填写or价格不合法
 2023-09-19 19:56:06,192 ERROR [http-nio-63040-exec-1][CourseBaseServiceImpl.java:117] - -1.0-------------
 2023-09-19 19:56:06,195 ERROR [http-nio-63040-exec-1][GlobalExceptionHandler.java:33] - 系统异常价格没有填写or价格不合法
 java.lang.RuntimeException: 价格没有填写or价格不合法
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl.saveCourseMaket(CourseBaseServiceImpl.java:118)
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl.createCourseBase(CourseBaseServiceImpl.java:93)
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl$$FastClassBySpringCGLIB$$efe342fe.invoke(<generated>)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl.saveCourseMaket(CourseBaseServiceImpl.java:118)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl.createCourseBase(CourseBaseServiceImpl.java:93)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl$$FastClassBySpringCGLIB$$efe342fe.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
@@ -86,7 +86,7 @@ java.lang.RuntimeException: 价格没有填写or价格不合法
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl$$EnhancerBySpringCGLIB$$504c5f56.createCourseBase(<generated>)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl$$EnhancerBySpringCGLIB$$504c5f56.createCourseBase(<generated>)
 	at com.stefanie.content.CourseBaseInfoController.createCourseBase(CourseBaseInfoController.java:47)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -143,9 +143,9 @@ java.lang.RuntimeException: 价格没有填写or价格不合法
 2023-09-19 19:57:31,847 ERROR [http-nio-63040-exec-1][GlobalExceptionHandler.java:24] - 系统异常价格没有填写or价格不合法
 com.stefanie.exception.GlobalException: 价格没有填写or价格不合法
 	at com.stefanie.exception.GlobalException.cast(GlobalException.java:20)
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl.saveCourseMaket(CourseBaseServiceImpl.java:119)
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl.createCourseBase(CourseBaseServiceImpl.java:94)
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl$$FastClassBySpringCGLIB$$efe342fe.invoke(<generated>)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl.saveCourseMaket(CourseBaseServiceImpl.java:119)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl.createCourseBase(CourseBaseServiceImpl.java:94)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl$$FastClassBySpringCGLIB$$efe342fe.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
@@ -155,7 +155,7 @@ com.stefanie.exception.GlobalException: 价格没有填写or价格不合法
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl$$EnhancerBySpringCGLIB$$504c5f56.createCourseBase(<generated>)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl$$EnhancerBySpringCGLIB$$504c5f56.createCourseBase(<generated>)
 	at com.stefanie.content.CourseBaseInfoController.createCourseBase(CourseBaseInfoController.java:47)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)

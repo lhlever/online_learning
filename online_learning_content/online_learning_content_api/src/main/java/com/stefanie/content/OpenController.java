@@ -1,8 +1,8 @@
 package com.stefanie.content;
 
 import com.stefanie.online_learning_content_model.dto.CoursePreviewDto;
-import com.stefanie.online_learning_content_service.service.CourseBaseService;
-import com.stefanie.online_learning_content_service.service.CoursePublishService;
+import com.stefanie.content.service.CourseBaseService;
+import com.stefanie.content.service.CoursePublishService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

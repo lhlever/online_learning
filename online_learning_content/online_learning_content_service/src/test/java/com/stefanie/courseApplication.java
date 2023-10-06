@@ -1,10 +1,8 @@
 package com.stefanie;
 
-import com.stefanie.online_learning_content_service.courseMapper.TeachplanMapper;
-import com.stefanie.online_learning_content_service.service.CourseBaseService;
-import com.stefanie.online_learning_content_service.service.CourseCategoryService;
-import com.stefanie.online_learning_content_service.service.TeachplanService;
-import com.stefanie.online_learning_content_service.service.impl.CourseCategoryServiceImpl;
+import com.stefanie.content.courseMapper.TeachplanMapper;
+import com.stefanie.content.service.CourseCategoryService;
+import com.stefanie.content.service.TeachplanService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

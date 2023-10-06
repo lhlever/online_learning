@@ -1,15 +1,10 @@
 package com.stefanie.content;
 
-import com.stefanie.domain.PageParam;
-import com.stefanie.domain.PageResult;
 import com.stefanie.online_learning_content_model.dto.CourseCategoryDto;
-import com.stefanie.online_learning_content_model.dto.QueryCourseParamDto;
-import com.stefanie.online_learning_content_model.po.CourseBase;
-import com.stefanie.online_learning_content_service.service.CourseBaseService;
-import com.stefanie.online_learning_content_service.service.CourseCategoryService;
+import com.stefanie.content.service.CourseBaseService;
+import com.stefanie.content.service.CourseCategoryService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.License;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

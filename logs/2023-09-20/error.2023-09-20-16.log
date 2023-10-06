@@ -14,7 +14,7 @@ The last packet successfully received from the server was 929 milliseconds ago. 
 The last packet successfully received from the server was 929 milliseconds ago. The last packet sent successfully to the server was 929 milliseconds ago.; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
 The last packet successfully received from the server was 929 milliseconds ago. The last packet sent successfully to the server was 929 milliseconds ago.
-org.springframework.dao.RecoverableDataAccessException: 
+org.springframework.dao.RecoverableDataAccessException:
 ### Error querying database.  Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
 The last packet successfully received from the server was 929 milliseconds ago. The last packet sent successfully to the server was 929 milliseconds ago.
@@ -41,11 +41,11 @@ The last packet successfully received from the server was 929 milliseconds ago. 
 	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
 	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
 	at com.sun.proxy.$Proxy92.selectById(Unknown Source)
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl.getCourseBaseInfoDto(CourseBaseServiceImpl.java:138)
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl$$FastClassBySpringCGLIB$$efe342fe.invoke(<generated>)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl.getCourseBaseInfoDto(CourseBaseServiceImpl.java:138)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl$$FastClassBySpringCGLIB$$efe342fe.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl$$EnhancerBySpringCGLIB$$5b680bac.getCourseBaseInfoDto(<generated>)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl$$EnhancerBySpringCGLIB$$5b680bac.getCourseBaseInfoDto(<generated>)
 	at com.stefanie.content.CourseBaseInfoController.getCourseById(CourseBaseInfoController.java:52)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)

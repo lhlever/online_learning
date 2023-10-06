@@ -101,4 +101,10 @@
         i++ 是后缀递增操作符，它会先返回 i 的当前值，然后再将 i 的值加一。
     由于 lambda 表达式要求捕获的变量是 effectively final，也就是不能在 lambda 内部修改，使用 ++i 可以确保先递增变量的值，然后将递增后的值传递给 lambda 表达式，而不会改变变量的本身的值。这有助于避免潜在的并发问题和不可预测的行为。
 
-    
+### 12.elasticsearch和kibana----------------2023年10月5日
+    这两个版本要一致
+    kibana的usr/share/kibana/config/kibana.yml，要设置elasticsearch所在的的IP
+    elasticsearch要设置分词器，https://github.com/medcl/elasticsearch-analysis-ik/releases，下载版本一样的，挂载到/usr/share/elasticsearch/plugins/ik，注意一定要有ik,不是plugins
+
+### 13.微服务之间引用时，直接注入某服务的对象失败时---------------2023年10月5日
+   ![2023-10-5-22-09.png](img/2023-10-5-22-09.png)

@@ -3,7 +3,7 @@ package com.stefanie.content;
 import com.stefanie.online_learning_content_model.dto.BindTeachPlanMediaDto;
 import com.stefanie.online_learning_content_model.dto.SaveTeachplanDto;
 import com.stefanie.online_learning_content_model.dto.TeachPlanDto;
-import com.stefanie.online_learning_content_service.service.TeachplanService;
+import com.stefanie.content.service.TeachplanService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

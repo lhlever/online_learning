@@ -2,13 +2,13 @@ package com.xuecheng.media.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import com.j256.simplemagic.ContentInfo;
 import com.j256.simplemagic.ContentInfoUtil;
 import com.stefanie.domain.PageParam;
 import com.stefanie.domain.PageResult;
 import com.stefanie.domain.RestResponse;
 import com.stefanie.exception.GlobalException;
+import com.stefanie.utils.StringUtil;
 import com.xuecheng.media.mapper.MediaFilesMapper;
 import com.xuecheng.media.mapper.MediaProcessMapper;
 import com.xuecheng.media.model.dto.QueryMediaParamsDto;
@@ -18,27 +18,21 @@ import com.xuecheng.media.model.po.MediaFiles;
 import com.xuecheng.media.model.po.MediaProcess;
 import com.xuecheng.media.service.MediaFileService;
 import io.minio.*;
-import io.minio.errors.*;
 import io.minio.messages.DeleteError;
 import io.minio.messages.DeleteObject;
-import jdk.nashorn.internal.runtime.regexp.joni.ast.StringNode;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.io.IOUtils;
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.yaml.snakeyaml.events.Event;
 
 import javax.management.ObjectName;
-import javax.swing.plaf.ViewportUI;
 import java.io.*;
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.util.Date;
@@ -222,7 +216,7 @@ public class MediaFileServiceImpl implements MediaFileService {
     }
 
     @Override
-    public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath) {
+    public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath, String objectname) {
         //1.将文件上传到minio
         //1.1根据文件扩展名获取mimeType
         String filename = uploadFileParamsDto.getFilename();
@@ -230,13 +224,17 @@ public class MediaFileServiceImpl implements MediaFileService {
         //1.2上传文件的参数信息
         String defaultFloaderPath = getDefaultFloaderPath();
         String fileMd5 = getFileMd5(new File(localFilePath));
-        String objectName=defaultFloaderPath + fileMd5;
-        boolean b = addMediaFilesToMinio(localFilePath, mimeType, bucket_mediafiles,objectName);
+
+        if (StringUtils.isEmpty(objectname)){
+            objectname=defaultFloaderPath + fileMd5;
+        }
+
+        boolean b = addMediaFilesToMinio(localFilePath, mimeType, bucket_mediafiles,objectname);
         if (!b){
             GlobalException.cast("上传文件失败");
         }
         //2.将文件信息写入到数据库中
-        MediaFiles mediaFiles = currentProxy.addMediaFilesToDb(companyId, fileMd5, uploadFileParamsDto, bucket_mediafiles, objectName);
+        MediaFiles mediaFiles = currentProxy.addMediaFilesToDb(companyId, fileMd5, uploadFileParamsDto, bucket_mediafiles, objectname);
         if (mediaFiles==null){
             GlobalException.cast("文件保存失败");
         }

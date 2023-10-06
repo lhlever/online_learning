@@ -101,7 +101,7 @@ Caused by: java.lang.IllegalStateException: Cannot load driver class: com.mysql.
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
 	... 72 more
 2023-09-18 09:07:11,713 ERROR [main][SpringApplication.java:837] - Application run failed
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseCategoryServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseCategoryServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.stefanie.content.courseMapper.CourseCategoryMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
@@ -123,14 +123,14 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
 	at com.stefanie.ContentApplication.main(ContentApplication.java:19)
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.stefanie.online_learning_content_service.courseMapper.CourseCategoryMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.stefanie.content.courseMapper.CourseCategoryMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1717)
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1273)
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
 	... 20 more
-2023-09-18 09:09:17,022 ERROR [http-nio-63040-exec-2][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/content] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.stefanie.online_learning_content_service.service.CourseBaseService.getPageByCondition] with root cause
-org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.stefanie.online_learning_content_service.service.CourseBaseService.getPageByCondition
+2023-09-18 09:09:17,022 ERROR [http-nio-63040-exec-2][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/content] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.stefanie.content.service.CourseBaseService.getPageByCondition] with root cause
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.stefanie.content.service.CourseBaseService.getPageByCondition
 	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
 	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.<init>(MybatisMapperMethod.java:51)
 	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.lambda$cachedInvoker$0(MybatisMapperProxy.java:111)
@@ -240,11 +240,11 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
 	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
 	at com.sun.proxy.$Proxy89.selectPage(Unknown Source)
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl.getPageByCondition(CourseBaseServiceImpl.java:38)
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl$$FastClassBySpringCGLIB$$efe342fe.invoke(<generated>)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl.getPageByCondition(CourseBaseServiceImpl.java:38)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl$$FastClassBySpringCGLIB$$efe342fe.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl$$EnhancerBySpringCGLIB$$1dffe870.getPageByCondition(<generated>)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl$$EnhancerBySpringCGLIB$$1dffe870.getPageByCondition(<generated>)
 	at com.stefanie.content.CourseBaseInfoController.list(CourseBaseInfoController.java:37)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -327,12 +327,12 @@ Caused by: java.net.SocketException: Connection reset
 	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
 	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:540)
 	... 98 more
-2023-09-18 09:10:58,965 ERROR [http-nio-63040-exec-2][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/content] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+2023-09-18 09:10:58,965 ERROR [http-nio-63040-exec-2][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/content] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException:
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
 ### The error may exist in com/stefanie/online_learning_content_service/courseMapper/CourseBaseMapper.java (best guess)
-### The error may involve com.stefanie.online_learning_content_service.courseMapper.CourseBaseMapper.selectPage
+### The error may involve com.stefanie.content.courseMapper.CourseBaseMapper.selectPage
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
@@ -390,11 +390,11 @@ java.net.SocketException: Connection reset
 	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
 	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
 	at com.sun.proxy.$Proxy89.selectPage(Unknown Source)
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl.getPageByCondition(CourseBaseServiceImpl.java:38)
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl$$FastClassBySpringCGLIB$$efe342fe.invoke(<generated>)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl.getPageByCondition(CourseBaseServiceImpl.java:38)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl$$FastClassBySpringCGLIB$$efe342fe.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.stefanie.online_learning_content_service.service.impl.CourseBaseServiceImpl$$EnhancerBySpringCGLIB$$1dffe870.getPageByCondition(<generated>)
+	at com.stefanie.content.service.impl.CourseBaseServiceImpl$$EnhancerBySpringCGLIB$$1dffe870.getPageByCondition(<generated>)
 	at com.stefanie.content.CourseBaseInfoController.list(CourseBaseInfoController.java:37)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)

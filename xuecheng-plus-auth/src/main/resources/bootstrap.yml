@@ -6,7 +6,7 @@ spring:
       server-addr: localhost:8848
       discovery:
         namespace: dev
-        group: xuecheng-plus-project
+        group: online-learning
       config:
         namespace: dev
         group: xuecheng-plus-project
@@ -19,6 +19,10 @@ spring:
           - data-id: logging-${spring.profiles.active}.yaml
             group: xuecheng-plus-common
             refresh: true
+          - data-id: feign-${spring.profiles.active}.yaml
+            group: xuecheng-plus-common
+            refresh: true
+
 
   profiles:
     active: dev

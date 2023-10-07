@@ -1,0 +1,2 @@
+###生成二维码
+POST http://localhost/api/checkcode/pic
